@@ -70,10 +70,18 @@
 "use strict";
 
 
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
 console.log('works');
 
 var sum = function sum(a, b) {
-  return a + b;
+    return a + b;
+};
+
+var myClass = function myClass() {
+    _classCallCheck(this, myClass);
+
+    this.myVar = "value";
 };
 
 /***/ })
