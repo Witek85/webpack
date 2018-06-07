@@ -7,5 +7,19 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     watch: true,
-    devtool: "source-map"
+    devtool: "source-map",
+    module: {
+        rules: [
+            {
+                test: /\.js$/,
+                use: {
+                    loader: "babel-loader",
+                    options: {
+                        presets: ["es2015"]
+                        
+                    }
+                }
+            }
+        ]
+    }
 }
