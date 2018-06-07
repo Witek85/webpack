@@ -12,13 +12,7 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
-                use: {
-                    loader: "babel-loader",
-                    options: {
-                        presets: ["es2015"],
-                        plugins: ["babel-plugin-transform-class-properties"]
-                    }
-                }
+                use: "babel-loader"
             }
         ]
     }

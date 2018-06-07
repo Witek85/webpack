@@ -72,7 +72,7 @@
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-console.log('works');
+console.log('works 2');
 
 var sum = function sum(a, b) {
     return a + b;
