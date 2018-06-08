@@ -22,7 +22,12 @@ module.exports = {
                         sourceMap: true,
                         minimize: true,
                     }
-                } ]
+                }, {
+                    loader: 'postcss-loader',
+                    options: {
+                      plugins: () => [require('autoprefixer')]
+                    }
+                  } ]
               }
         ]
     }

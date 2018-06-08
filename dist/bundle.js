@@ -118,8 +118,8 @@ var update = __webpack_require__(4)(content, options);
 if(content.locals) module.exports = content.locals;
 
 if(false) {
-	module.hot.accept("!!../node_modules/css-loader/index.js??ref--1-1!./style.css", function() {
-		var newContent = require("!!../node_modules/css-loader/index.js??ref--1-1!./style.css");
+	module.hot.accept("!!../node_modules/css-loader/index.js??ref--1-1!../node_modules/postcss-loader/lib/index.js??ref--1-2!./style.css", function() {
+		var newContent = require("!!../node_modules/css-loader/index.js??ref--1-1!../node_modules/postcss-loader/lib/index.js??ref--1-2!./style.css");
 
 		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
@@ -153,7 +153,7 @@ exports = module.exports = __webpack_require__(3)(true);
 
 
 // module
-exports.push([module.i, "", "", {"version":3,"sources":[],"names":[],"mappings":"","file":"style.css","sourceRoot":""}]);
+exports.push([module.i, "::-webkit-input-placeholder{color:red}:-ms-input-placeholder,::-ms-input-placeholder{color:red}::placeholder{color:red}", "", {"version":3,"sources":["C:/Projekty/webpack/css/style.css"],"names":[],"mappings":"AAIA,4BACI,SAAW,CACZ,AAMH,+CACI,SAAW,CACZ,AAEH,cACI,SAAW,CACZ","file":"style.css","sourcesContent":["body {\r\n    /* background: red; */\r\n}\r\n\r\n::-webkit-input-placeholder {\r\n    color: red;\r\n  }\r\n\r\n:-ms-input-placeholder {\r\n    color: red;\r\n  }\r\n\r\n::-ms-input-placeholder {\r\n    color: red;\r\n  }\r\n\r\n::placeholder {\r\n    color: red;\r\n  }"],"sourceRoot":""}]);
 
 // exports
 
