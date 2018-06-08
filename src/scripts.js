@@ -1,5 +1,4 @@
-// require('babel-polyfill');
-require('core-js/fn/promise');
+require('../css/style.css');
 
 console.log('works 2');
 
