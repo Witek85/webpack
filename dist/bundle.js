@@ -153,7 +153,7 @@ exports = module.exports = __webpack_require__(3)(true);
 
 
 // module
-exports.push([module.i, "::-webkit-input-placeholder{color:red}:-ms-input-placeholder,::-ms-input-placeholder{color:red}::placeholder{color:red}", "", {"version":3,"sources":["C:/Projekty/webpack/css/style.css"],"names":[],"mappings":"AAIA,4BACI,SAAW,CACZ,AAMH,+CACI,SAAW,CACZ,AAEH,cACI,SAAW,CACZ","file":"style.css","sourcesContent":["body {\r\n    /* background: red; */\r\n}\r\n\r\n::-webkit-input-placeholder {\r\n    color: red;\r\n  }\r\n\r\n:-ms-input-placeholder {\r\n    color: red;\r\n  }\r\n\r\n::-ms-input-placeholder {\r\n    color: red;\r\n  }\r\n\r\n::placeholder {\r\n    color: red;\r\n  }"],"sourceRoot":""}]);
+exports.push([module.i, "::-webkit-input-placeholder{color:red}:-ms-input-placeholder,::-ms-input-placeholder{color:red}::placeholder{color:red}body{background:url(\"./images/logo.png\") no-repeat 50% grey}", "", {"version":3,"sources":["/Users/witold.szklarski/Desktop/Projekty/webpack/css/style.css"],"names":[],"mappings":"AAIA,4BACI,SAAW,CACZ,AAMH,+CACI,SAAW,CACZ,AAEH,cACI,SAAW,CACZ,AAEH,KACI,sDAA2D,CAC9D","file":"style.css","sourcesContent":["body {\n    /* background: red; */\n}\n\n::-webkit-input-placeholder {\n    color: red;\n  }\n\n:-ms-input-placeholder {\n    color: red;\n  }\n\n::-ms-input-placeholder {\n    color: red;\n  }\n\n::placeholder {\n    color: red;\n  }\n\nbody {\n    background: url('./images/logo.png') no-repeat center grey;\n}"],"sourceRoot":""}]);
 
 // exports
 

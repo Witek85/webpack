@@ -5,3 +5,7 @@ body {
 ::placeholder {
     color: red;
   }
+
+body {
+    background: url('./images/logo.png') no-repeat center grey;
+}
